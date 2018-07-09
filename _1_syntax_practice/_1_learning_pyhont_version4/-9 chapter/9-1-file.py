@@ -12,3 +12,18 @@
 -------------------------------------------------
 """
 __author__ = 'Sam Yong'
+
+# 文件内容
+myfile = open(r'myfile.txt', 'w')
+myfile.write('hello\n')
+myfile.write('nihao\n')
+myfile.close()
+
+myfile = open(r'myfile.txt', 'r')
+print(myfile.readline())
+myfile.close()
+
+# 文件迭代器
+print('*' * 30)
+for line in open('myfile.txt'):
+    print(line, end="") #
