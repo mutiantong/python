@@ -33,3 +33,9 @@ L.sort(key=str.lower)
 print(L)
 L.sort(reverse=True)
 print(L)
+
+# 给列表后面的元素清空
+L2 = [1, 2, 3, 4, 5, 6]
+print(L2)
+L2[3:] = [] # 将4,5,6删除
+print(L2)
