@@ -15,3 +15,5 @@ __author__ = 'Sam Yong'
 
 import _22_1_model_1
 print(list(( _22_1_model_1.__dict__.keys())))
+print( _22_1_model_1.__name__) # output： _22_1_model_1
+print( _22_1_model_1.__file__) # output: _1_learning_pyhont_version4\-22 chapter model 2\_22_1_model_1.py
